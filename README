@@ -1,1 +1,43 @@
-# Satellite Solar Power Distribution Tracker App
+# ☀️ Solar Power Distribution App
+
+## 📋 Project Purpose
+The **Solar Power Distribution App** is designed to optimize, monitor, and manage the distribution of solar energy across localized grids. It provides real-time analytics to help users balance energy loads, track battery storage levels, and minimize reliance on traditional power grids. 
+
+### Key Objectives
+* **Maximize Efficiency:** Intelligently allocate solar energy based on peak demand hours.
+* **Reduce Waste:** Divert excess generated power into battery storage or return it to the municipal grid.
+* **Empower Users:** Deliver clear visualizations of power consumption versus generation trends.
+
+---
+
+## 🚀 How to Use It
+
+Follow these steps to get your solar power distribution network up and running:
+
+### 1. Installation & Setup
+Clone the repository and install the required dependencies:
+```bash
+git clone https://github.com
+cd solar-power-distribution-app
+npm install
+```
+
+### 2. Configuration
+Create a `.env` file in the root directory and add your localized smart-meter API credentials:
+```env
+GRID_API_KEY=your_secret_api_key_here
+DEFAULT_BATTERY_CAPACITY_KWH=15
+```
+
+### 3. Running the Application
+Start the development server to launch the web dashboard:
+```bash
+npm start
+```
+Open [http://localhost:3000](http://localhost:3000) in your browser to view the interface.
+
+### 4. Navigating the Dashboard
+* **Main Monitor:** View your current live solar output and household power draw.
+* **Distribution Tab:** Manually toggle power priorities between your home appliances, EV chargers, or storage batteries.
+* **Analytics Tab:** Export weekly and monthly energy sustainability reports.
+
